@@ -8,13 +8,14 @@
   display: block;
 }
 #FINAL {
-  display: block;
+  display: none;
+  width: 60%;
 }
 
 .box {
   margin:  4%;
   padding: 2%;
-  border: solid black 5px;
+  border: outset #09e81f 5px;
 }
 /*.inform {
   display: block;

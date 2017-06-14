@@ -35,7 +35,10 @@ $(document).ready(function() {
     $('span#tripType').empty().append(tripType);
     $('span#price').empty().append("$"+(parseInt(price)*.8).toString());
 
+    $("#FINAL").fadeIn(3000);
+
 
     event.preventDefault();
   });
+
 });
