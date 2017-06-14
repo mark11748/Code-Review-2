@@ -62,12 +62,20 @@
         </div>
 
         <div class="row inform form-group">
+          <label for="tripFocus">What is the primary focus of this trip?</label><br>
+          <input id="tripFocus" type="checkbox" name="tripFocus" value="shopping/dining">shopping/dining<br>
+          <input id="tripFocus" type="checkbox" name="tripFocus" value="historical sites">historical sites<br>
+          <input id="tripFocus" type="checkbox" name="tripFocus" value="activities/events">activities/events<br>
+          <input id="tripFocus" type="checkbox" name="tripFocus" value="adventure">adventure<br>
+        </div>
+
+        <div class="row inform form-group">
           <label for="tripType">What type of vacation would you like to plan?</label>
           <select id="tripType" name="SELECT TRIP TYPE">
             <option value="cruise">cruise</option>
             <option value="guided-tour">guided-tour</option>
-            <option value="resort">resort</option>
-            <option value="standard">standard</option>
+            <option value="resort-package">resort</option>
+            <option value="standard-trip">standard</option>
           </select>
         </div>
 
@@ -84,7 +92,7 @@
       <div class="box">
         <p>We have your calculated your trip estimate below...</p>
         <div class="box" id="FINAL">
-          <p>We have estimated a <span id="tripType"></span> to <span id="area"></span> will be <span id="price"></span> for you.</p>
+          <p>We have estimated a <span id="tripType"></span> to <span id="area"></span> will be <span id="price"></span> for you. A list of specific destinations will be mailed to you. We hope you enjoy your vacation <span id="title"></span><span id="name"></span></p>
         </div>
       </div>
     </div>
