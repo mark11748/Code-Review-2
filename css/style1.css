@@ -1,0 +1,34 @@
+#SCREEN-1 {
+ display: block;
+}
+#SCREEN-2 {
+  display: block;
+}
+#SCREEN-3 {
+  display: block;
+}
+#FINAL {
+  display: block;
+}
+
+.box {
+  margin:  4%;
+  padding: 2%;
+  border: solid black 5px;
+}
+/*.inform {
+  display: block;
+  padding: 2%;
+  margin: 2%;
+  border: solid black 5px;
+}*/
+
+.next {
+  border: none;
+}
+
+.footer {
+  display: none;
+  margin: 5%;
+  padding: 2.5%;
+}

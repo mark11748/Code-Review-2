@@ -1,0 +1,46 @@
+Lorel ipsum ….
+
+Name:
+Gender:
+	m
+	f
+	other
+		{enter text}
+Address:
+
+---------
+What part of the world do you wish to visit [M][name]?
+*Americas
+*Europe
+*Africa
+*Asia/Oceania
+
+Who is taking this trip with you?
+*solo
+*couple
+*friends
+*family
+
+	How many people are coming?
+	1-9
+
+What type of vacation would you like to plan?
+*cruise
+*guided-tour
+*resort
+*standard
+
+What is your budget?
+*$0-$3999
+*$4000-$7999
+*$8000-$12000
+*$12000+
+
+What is the primary focus?
+*historical sights
+*events/activities
+*shopping/dining
+*theme parks
+*adventure
+
+

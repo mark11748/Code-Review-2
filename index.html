@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style1.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script1.js">
+    </script>
+    <meta charset="utf-8">
+    <title>Review#2</title>
+  </head>
+  <body>
+    <div class="container-fluid box" id="SCREEN-1">
+      <p>Welcome to CrazyBob's travel planning. Before we begin we just need a few bits of info.<p>
+        <form>
+          <div class="row inform form-group"> <!-- set var 'name' -->
+            <label for="name">What is your name?</label> <br>
+            <input id="name" type="text" value="Please enter your name here.">
+          </div>
+
+          <div class="row inform form-group"> <!-- set var 'name-prefix' -->
+            <label for="title">How may we address you?</label> <br>
+            <input id="title" type="radio" name="title" value="Mr."> Mr. <br>
+            <input id="title" type="radio" name="title" value="Ms."> Ms. <br>
+            <input id="title" type="radio" name="title" value="None"> None <br>
+            <input id="title" type="radio" name="title" value="Other"> Other <br>
+          </div>
+
+          <div class="row inform form-group"> <!-- set var 'age' -->
+            <label for="age">How old are you?</label> <br>
+            <input id="age" type="number" value="0">
+          </div>
+
+            <button type="submit" class="btn-info"> Submit </button>
+        </form>
+    </div>
+
+    <div class="container-fluid box" id="SCREEN-2">
+      <p>
+        Thank you <span id="title"></span><span id="name"></span>. Just a few questions and we should be able to offer you some vacation suggestions.
+      </p>
+
+      <form class="box">
+        <div class="row inform form-group">
+          <label for="area">What part of the world do you wish to visit <span id="title"></span><span id="name"></span>?</label>
+          <select id="area" name="SELECT PREFERED LOCATION">
+            <option value="Americas">Americas</option>
+            <option value="Europe">Europe</option>
+            <option value="Africa">Africa</option>
+            <option value="Asia/Oceania">Asia/Oceania</option>
+          </select>
+        </div>
+
+        <div class="row inform form-group">
+          <label for="participants">Who is taking this trip with you?</label>
+          <select id="participants" name="SELECT PARTICIPANTS">
+            <option value="solo">solo</option>
+            <option value="couple">couple</option>
+            <option value="friends">friends</option>
+            <option value="family">family</option>
+          </select>
+        </div>
+
+        <div class="row inform form-group">
+          <label for="tripType">What type of vacation would you like to plan?</label>
+          <select id="tripType" name="SELECT TRIP TYPE">
+            <option value="cruise">cruise</option>
+            <option value="guided-tour">guided-tour</option>
+            <option value="resort">resort</option>
+            <option value="standard">standard</option>
+          </select>
+        </div>
+
+        <div class="row inform form-group">
+          <label for="price">What is your budget for this trip?</label>
+          <input id="price" type="range" min="0" max="20000" step="1000" value="2000">
+        </div>
+
+        <button type="submit" class="btn-info"> Submit </button>
+      </form>
+    </div>
+
+    <div id="SCREEN-3">
+      <div class="box">
+        <p>We have your calculated your trip estimate below...</p>
+        <div class="box" id="FINAL">
+          <p>We have estimated a <span id="tripType"></span> to <span id="area"></span> will be <span id="price"></span> for you.</p>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
