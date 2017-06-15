@@ -11,6 +11,9 @@
   display: none;
   width: 60%;
 }
+#SHOW-ME {
+  color: #19efff;
+}
 
 .box {
   margin:  4%;

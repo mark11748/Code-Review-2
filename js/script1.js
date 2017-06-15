@@ -35,7 +35,8 @@ $(document).ready(function() {
     $('span#tripType').empty().append(tripType);
     $('span#price').empty().append("$"+(parseInt(price)*.8).toString());
 
-    $("#FINAL").fadeIn(3000);
+    $('#SHOW-ME').click(function(){ $("#FINAL").fadeIn(3000); });
+    $('#FINAL').click(function(){ $("#FINAL").fadeOut(3000); });
 
 
     event.preventDefault();
