@@ -14,6 +14,15 @@
 #SHOW-ME {
   color: #19efff;
 }
+#warn {
+  display: none;
+  color: red;
+  font-style: italic;
+  border: solid 2px red;
+  padding: 6px;
+  font-size: 14pt;
+  font-weight: bold;
+}
 
 .box {
   margin:  4%;

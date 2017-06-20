@@ -35,6 +35,11 @@ $(document).ready(function() {
     $('span#tripType').empty().append(tripType);
     $('span#price').empty().append("$"+(parseInt(price)*.8).toString());
 
+    if (parseInt(price) > 8000)
+    {
+      $('#SCREEN-3 #warn').show();
+    }
+
     $('#SHOW-ME').click(function(){ $("#FINAL").fadeIn(3000); });
     $('#FINAL').click(function(){ $("#FINAL").fadeOut(3000); });
 
